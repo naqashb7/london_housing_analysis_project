@@ -6,7 +6,7 @@
 
 
 ## Dataset Content
-* The dataset is sourced from Kaggle. It displays a variety of information regarding average house price, total crimes and total houses sold for a variety of boroughs of London. It provides this information for every month between 01/01/95 to 01/01/21. 
+* The dataset is sourced from Kaggle. It displays a variety of information regarding average house price, total crimes and total houses sold for a variety of boroughs of London. It provides this information for every month between 01/01/95 to 01/01/20. 
 
 ## Business Requirements
 * London City Council requires an in depth analysis of the London housing market for the past 20 years and how crime may have affected it. The council requires to understand crime's impact and how each borough fares in comparison to other boroughs in the region.
