@@ -6,20 +6,24 @@
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
-
+* The dataset is sourced from Kaggle. It displays a variety of information regarding average house price, total crimes and total houses sold for a variety of boroughs of London. It provides this information for every month between 01/01/95 to 01/01/21. 
 
 ## Business Requirements
-* Describe your business requirements
+* London City Council requires an in depth analysis of the London housing market for the past 20 years and how crime may have affected it. The council requires to understand crime's impact and how each borough fares in comparison to other boroughs in the region.
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+* Hypothesis 1: In areas of high crime, there will be less houses sold
+* Hypothesis 2: In areas of high crime, the average house price will be lower
+* Hypothesis 3: When crime increases, houses sold will reduce and when crime decreases, houses sold will increase
+* Hypothesis 4: When crime increases, average house prices will reduce and when crime decreases, average house prices will increase
+
+All the hypotheses will be validated via visualising the data in graphs to compare the stats.
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+1) ETL - the data must be cleaned and transformed removing all null values, all data that is not relevant for this project so that it can be analysed accurately.
+2) Visualisation - the clean data will now be visualised using a variety of libraries including Matplotlib, Seaborn and Plotly.
+3) Conclusion - the visualisations will be used to draw conclusions against the data which will then be compared to the hypotheses derived earlier in the project.
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
