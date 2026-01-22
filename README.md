@@ -1,6 +1,6 @@
-# Project XYZ
+# London Housing Analysis Project
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+**London Housing Analysis Project** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
@@ -26,65 +26,63 @@ All the hypotheses will be validated via visualising the data in graphs to compa
 3) Conclusion - the visualisations will be used to draw conclusions against the data which will then be compared to the hypotheses derived earlier in the project.
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+* The requirements were to understand how crime may affect London housing markets and house prices.
+* Against the hypotheses we can draw the following conclusions:
+    * Hypothesis 1: Failed. In areas of high crime, more houses were sold.
+    * Hypothesis 2: Passed. In areas of high crime, the average house price was lower, however, there are still the odd anomaly boroughs (such as Westminster), where house prices were high yet crime rates also remaind high.
+    * Hypothesis 3: Failed. There was no definitive correlation between house sales and crime rates.
+    * Hypothesis 4: Failed. There was a clear correlation between average house price and crime rates but not in the way of the hypothesis. In areas of high crime, average house prices remained low and vice versa (low crime areas = higher average house price). However, we could see that all boroughs had a consistent increase in average house price with crime rates not causing them to decrease but just helping define how high the average price will reach.
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+* The different data analysis techniques used were as follows:
+    * Matplotlib - It was difficult to derive correlations directly so more complex techniques were required.
+        * Bar charts
+    * Seaborn - More complex analysis tools were used and this allowed to do a more detailed analysis however, all data was completely separated and required switching between different visualisations.
+        * Facet Grid with line plots
+        * Heat maps
+        * Scatter plots
+        * Facet Grid with scatter plots and linear regression
+    * Plotly - This allowed for using one visualisation to compare many different types of data
+        * Scatter graph with sizing and colour of points to indicate data 
+* I structured the data analysis techniques in order of complexity. This helped show the development of the visualisations and the analysis from Basic to Complex. This also helped show the process in which conclusions were drawn and how basic visualisations may not provide the full picture.
+* The data did limit me in some senses such as the crime rates. Through my data analysis I determined that crime rates can't be considered as general categories and need further in depth analysis to draw more accurate conclusions. I analysed the data and made sure to document this so that future analysis can be done with this in mind.
+* I used ChatGPT to help aid me in code optimisation and in helping me decide what graphs I wanted to create to visualise the data accurately. I was careful not to rely on ChatGPT completely and made sure I made the decisions myself using AI only as a guide while also making sure I understood every bit of code I wrote and why I wrote it.
 
 ## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
+* The issue with my data is that it was very basic in terms of analysing how the housing market in London was impacted. Crime is one issue but even that needs an in depth analysis into the types of crime. For example, do areas with high rates of violent crime have less houses sold than areas with high crime but less violent crime?
+* As well as this it is important to consider other socio-economic variables when doing a study of any housing market. It can not be trivialised to purely crime impacting it.
 
 
 
 ## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+* For gaps in my knowledge I would use a variety of resources including:
+    * Code Institute LMS
+    * ChatGPT
+    * StackOverflow
+    * GeeksforGeeks
+    * W3Schools
+    * Youtube
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+* In my next project experience I definitely want to incorporate some Machine learning (such as feature engine) as I would like to do predictive analytics.
 
-## Deployment
-### Heroku
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
 
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+* The Libraries I used were as follows:
+    * Pandas - Data cleaning and visualisation (creating variables to help with visualisation)
+    * Matplotlib - Basic Data Visualisation
+    * Seaborn - Complex Data Visualisation
+    * Plotly - Interactive Data Visualisation
 
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
+* I got my dataset from Kaggle.
 
 
 ## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+* Firstly, thank you to God for everything.
+* Thank you to my parents and my wife who have supported me throughout this project and in my career and life in general.
+* Thank you Vasi for his support throughout this project.
