@@ -9,7 +9,7 @@
 * The dataset is sourced from Kaggle. It displays a variety of information regarding average house price, total crimes and total houses sold for a variety of boroughs of London. It provides this information for every month between 01/01/95 to 01/01/20. 
 
 ## Business Requirements
-* London City Council requires an in depth analysis of the London housing market for the past 20 years and how crime may have affected it. The council requires to understand crime's impact and how each borough fares in comparison to other boroughs in the region.
+* London City Council requires an analysis of the London housing market for the past 20 years and how crime may have affected it. The council requires to understand crime's impact and how each borough fares in comparison to other boroughs in the region.
 
 
 ## Hypothesis and how to validate?
@@ -38,11 +38,7 @@ All the hypotheses will be validated via visualising the data in graphs to compa
 * Were there any data privacy, bias or fairness issues with the data?
 * How did you overcome any legal or societal issues?
 
-## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
+
 
 ## Unfixed Bugs
 * Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
