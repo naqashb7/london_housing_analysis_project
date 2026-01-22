@@ -82,7 +82,7 @@ All the hypotheses will be validated via visualising the data in graphs to compa
 * I got my dataset from Kaggle.
 
 
-## Acknowledgements (optional)
+## Acknowledgements 
 * Firstly, thank you to God for everything.
 * Thank you to my parents and my wife who have supported me throughout this project and in my career and life in general.
 * Thank you Vasi for his support throughout this project.
